@@ -1,0 +1,20 @@
+function anil(){
+		return 'hello';
+}
+
+async function anjali(){
+		let po = new Promise((resolve,reject)=>{
+				//PC
+				setTimeout(()=>{
+						resolve('OK');
+				},3000);
+		});
+		return po;
+}
+
+async is parent
+await is child
+
+async function abc(){
+				await PO
+}
